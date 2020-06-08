@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_metas",
+  "info": {
+    "name": "Meta",
+    "icon": "info"
+  },
+  "options": {},
+  "attributes": {
+    "keywords": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

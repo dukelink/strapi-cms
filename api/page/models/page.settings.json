@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Copy": {
+      "type": "richtext"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.image"
+    },
+    "Meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.meta"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
